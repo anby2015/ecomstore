@@ -1,0 +1,120 @@
+/*/////////////////////////////
+///
+///       Navigation
+///
+/////////////////////////////*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: medium;
+}
+
+html, body {
+    background-color: #c0c0c0;
+}
+
+.cb {
+    clear: both;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.bn {
+    border: none;
+}
+
+#main {
+    margin: 0 auto;
+    width: 900px;
+    background-color: #ffffff;
+}
+
+.bannerIEPadder, .sidebarIEPadder, .contentIEPadder {
+    padding: 10px;
+}
+
+.navIEPadder, .footerIEPadder {
+    padding: 5px;
+}
+
+#banner {
+    width: 900px;
+    height: 110px;
+    background-color: #ff8c00;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    position: relative;
+}
+
+div.cart_box a {
+    color: #ffffff;
+}
+
+#sidebar {
+    width: 200px;
+    float: left;
+}
+
+#content {
+    width: 700px;
+    float: left;
+}
+
+#footer {
+    clear: both;
+    background-color: #98ac5e;
+    color: #ffffff;
+    text-align: center;
+}
+
+a.skip_link {
+    position: absolute;
+    left: -1000px;
+    top: -1000px;
+}
+
+/*/////////////////////////////
+///
+///       Navigation
+///
+/////////////////////////////*/
+
+
+#navigation {
+    width: 900px;
+    height: auto;
+    background-color: #98ac5e;
+    text-align: middle;
+}
+
+#navigation ul {
+    list-style: none;
+}
+
+#navigation ul li {
+    float: left;
+    margin-right: 15px;
+}
+
+#navigation ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#navigation ul li a:hover {
+    color: #616161;
+    background-color: #ffffff;
+    text-align: none;
+}
