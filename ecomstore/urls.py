@@ -16,7 +16,12 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', include('catalog.urls')),
+    url(r'^', include('catalog.urls')),
+    url(r'^cart/', include('cart.urls')),
     url(r'^static/(?P<path>.*)$', 'django.views.static.serve',
         {'document_root': os.path.join(settings.ROOT, 'ecomstore/static')}),
+    url(r'^media/(?P<path>.*)$', 'django.views.static.serve',
+        {'document_root': os.path.join(settings.ROOT, 'ecomstore/media')}),
 )
+
+handler_404 = 'views.file_not_found_404'

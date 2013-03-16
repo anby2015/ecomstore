@@ -1,6 +1,6 @@
 /*/////////////////////////////
 ///
-///       Navigation
+///       Main
 ///
 /////////////////////////////*/
 
@@ -117,4 +117,40 @@ a.skip_link {
     color: #616161;
     background-color: #ffffff;
     text-align: none;
+}
+
+/*/////////////////////////////
+///
+///       Catalog
+///
+/////////////////////////////*/
+
+a {
+    color: #98ac5e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* category page styles */
+
+div.product_thumbnail {
+    text-align: center;
+    float: left;
+    width: 150px;
+    height: 200px;
+}
+
+/* product page styles */
+div.product_image {
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+/* style for Django error messages */
+ul.errorlist{
+    background-color: #ff0000;color: #ffffff;
 }
