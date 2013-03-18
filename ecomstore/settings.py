@@ -103,6 +103,7 @@ MIDDLEWARE_CLASSES = (
     # Uncomment the next line for simple clickjacking protection:
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
+    'ecomstore.SSLMiddleware.SSLRedirect',
 )
 
 ROOT_URLCONF = 'ecomstore.urls'
@@ -168,3 +169,5 @@ SITE_NAME = 'Modern Musician'
 META_KEYWORDS = 'Music, instruments, music accessories, musician supplies'
 META_DESCRIPTION = """Modern Musician is an online supplier of instruments,
 sheet music, and other accessories for musicians"""
+
+ENABLE_SSL = False
